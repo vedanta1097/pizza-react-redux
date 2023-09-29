@@ -21,8 +21,8 @@ export const pizzaSlice = createSlice({
       state.orders = [...state.orders, action.payload]
     },
     removeOrder: (state, action: PayloadAction<number>) => {
-      const removedOrderIdx = state.orders.findIndex(order => order.id === action.payload)
-      state.orders.splice(removedOrderIdx, 1)
+      const newOrders = state.orders.filter(order => order.id !== action.payload)
+      state.orders = newOrders
     }
   },
 })
