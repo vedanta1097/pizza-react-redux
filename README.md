@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Demo
+
+[pizza.webm](https://github.com/vedanta1097/pizza-react-redux/assets/17045245/0dc45761-8f6f-4571-9726-b5afabdb6450)
 
 ## Getting Started
 
